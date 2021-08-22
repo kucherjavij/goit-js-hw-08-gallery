@@ -1,3 +1,4 @@
+
 const galleryItems = [
     {
       preview:
@@ -63,13 +64,6 @@ const galleryItems = [
       description: 'Lighthouse Coast Sea',
     },
 ];
-const galleryList = document.querySelector(".js-gallery")
-  
-function createImg(gallery) {
-    return gallery
-        .map(({ preview, original, description }))=>{
-        return `
-        
-        `
-        }
-}
+export default galleryItems;
+
+
